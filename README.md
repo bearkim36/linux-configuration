@@ -1,2 +1,5 @@
-# linux-configuration
-리눅스 설치할 때 필요한 것들을 그럭저럭 Readme로 정리하는 용도
+# 리눅스 설정
+Popos나 그외 리눅스를 쓸 때 필요한것들을 찾기 귀찮아서 복사할 목적으로 저장하는 repository
+
+
+
