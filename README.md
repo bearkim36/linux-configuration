@@ -2,6 +2,15 @@
 Popos나 그외 리눅스를 쓸 때 필요한것들을 찾기 귀찮아서 복사할 목적으로 저장하는 repository
 
 ```sh
+
+sudo apt-get install zsh
+
+chsh -s $(which zsh)
+
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
+
+
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 echo "source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc 
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
